@@ -6,14 +6,14 @@ For one of my Year 2 Uni projects, we were to create a CLI/Terminal application.
 
 ## How it works
 
-### Menu Function 
+### Menu Function
 The ```Menu()``` function takes in:
 - A dictionary of a key and value that are strings: ```Dictionary<string,string>```
 - And makes use of C#'s actions: ```List<Action>```
 This menu is responsible for keeping track of the users position, calling the additional ```Render()``` function and keeping track of user input. 
 
 ### Render Function
-The render function takes in:
+The ```Render()``` function takes in:
 - The dictionary from the main which is made from a key and value that are strings ```Dictionary<string,string>```
 - The position which is an ```int```
 
